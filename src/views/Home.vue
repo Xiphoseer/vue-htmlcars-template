@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <h1 class="logo">&#0133;</h1>
     <HelloWorld msg="Welcome to Your Vue.js + HTMLCARS + TypeScript App"/>
   </div>
 </template>
@@ -16,3 +16,12 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 })
 export default class Home extends Vue {}
 </script>
+
+<style scoped lang="scss">
+  .logo {
+    border-bottom: unset;
+    font-size: 16rem;
+    margin-bottom: -2rem;
+    color: #42b983;
+  }
+</style>
